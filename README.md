@@ -29,5 +29,33 @@
           - reboot
           เมื่อ reboot สำเร็จ จะได้รับการ genarate ตัวไอดีขึ้นใหม่ และได้รับ ip ใหม่เช่นกัน
           ทำขั้นตอนนี้ที่ vm clone 2 เช่นกัน
+   ![image](https://user-images.githubusercontent.com/116482588/207836834-2a980c74-7779-4e73-95bc-7ca7e0c4d3c7.png)
+   ![image](https://user-images.githubusercontent.com/116482588/207836485-46e19271-a2d3-4145-a428-d4de177c0078.png)
+   ![image](https://user-images.githubusercontent.com/116482588/207836396-d9b40cb7-2ede-43e5-9168-4e9121204487.png)
+
+          
+หัวข้อที่ 2 สร้าง orther os 
+  ใช้เป็น ubantu mint ทำการ set ค่าต่างๆ 
+    - set update time ด้วยคำสั่ง
+      - sudo timedatectl set-timezone Asia/Bangkok
+      - date
+    - set qemu-guest-agent เพื่อเปิดใช้งาน ip qemu ด้วยคำสั่ง
+      - sudo -i
+      - apt update
+      - apt install qemu-guest-agent
+      - systemctl enable qemu-guest-agent
+      - และทำการตั้งค่าที่ option ให้เปิดใช้งานตัว Qemu guest agent
+        ![image](https://user-images.githubusercontent.com/116482588/205888715-80d93122-f42f-4585-96df-e5aa9a1e1b4e.png)
+      - ทำการรีบูทระบบ
+    ![image](https://user-images.githubusercontent.com/116482588/207835889-229a20da-4de6-453f-a018-4f6114fc2e00.png)
+    
+หัวข้อที่ 3 ทำการสร้าง container 
+  โดยจะใช้คีย์ SSH จาก Github จากการที่เรา Genarate จาก SSH Key github
+  - set update time ด้วยคำสั่ง
+    - sudo timedatectl set-timezone Asia/Bangkok
+    - date
+  ![image](https://user-images.githubusercontent.com/116482588/207841314-a5650ba0-4dbc-468f-8ba2-c125df737abc.png)
+
+
 
       
