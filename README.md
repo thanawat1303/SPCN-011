@@ -29,11 +29,15 @@
           - reboot
           เมื่อ reboot สำเร็จ จะได้รับการ genarate ตัวไอดีขึ้นใหม่ และได้รับ ip ใหม่เช่นกัน
           ทำขั้นตอนนี้ที่ vm clone 2 เช่นกัน
+   
    summary
+    
     master : ![image](https://user-images.githubusercontent.com/116482588/208134714-f1057616-b8ca-479b-8e53-7e2e35c15897.png)
     clone 1 : ![image](https://user-images.githubusercontent.com/116482588/208135693-d3b86681-268e-4d6d-9826-2a1de48780ce.png)
     clone 2 : ![image](https://user-images.githubusercontent.com/116482588/208135949-acc2956d-ecde-4aff-bf36-7a04c9e17636.png)
+   
    watch
+    
     clone 1 :
       ![image](https://user-images.githubusercontent.com/116482588/208139605-5a9e7554-7032-47bd-907e-81a88fa7c282.png)
     clone 2 :
@@ -59,9 +63,13 @@
   - set update time ด้วยคำสั่ง
     - sudo timedatectl set-timezone Asia/Bangkok
     - date
+  
   summary 
+    
     ![image](https://user-images.githubusercontent.com/116482588/208141432-f3725531-bc17-418d-8b92-f59102b1b070.png)
+  
   console
+    
     ![image](https://user-images.githubusercontent.com/116482588/208141547-0fa77d12-c4ff-412c-98a2-750ece39c714.png)
 
 
