@@ -29,10 +29,15 @@
           - reboot
           เมื่อ reboot สำเร็จ จะได้รับการ genarate ตัวไอดีขึ้นใหม่ และได้รับ ip ใหม่เช่นกัน
           ทำขั้นตอนนี้ที่ vm clone 2 เช่นกัน
-   ![image](https://user-images.githubusercontent.com/116482588/207836834-2a980c74-7779-4e73-95bc-7ca7e0c4d3c7.png)
-   ![image](https://user-images.githubusercontent.com/116482588/207836485-46e19271-a2d3-4145-a428-d4de177c0078.png)
-   ![image](https://user-images.githubusercontent.com/116482588/207836396-d9b40cb7-2ede-43e5-9168-4e9121204487.png)
-
+   summary
+    master : ![image](https://user-images.githubusercontent.com/116482588/208134714-f1057616-b8ca-479b-8e53-7e2e35c15897.png)
+    clone 1 : ![image](https://user-images.githubusercontent.com/116482588/208135693-d3b86681-268e-4d6d-9826-2a1de48780ce.png)
+    clone 2 : ![image](https://user-images.githubusercontent.com/116482588/208135949-acc2956d-ecde-4aff-bf36-7a04c9e17636.png)
+   watch
+    clone 1 :
+      ![image](https://user-images.githubusercontent.com/116482588/208139605-5a9e7554-7032-47bd-907e-81a88fa7c282.png)
+    clone 2 :
+      ![image](https://user-images.githubusercontent.com/116482588/208140725-8e718e08-7170-42e4-bac1-5229f5f5ddb5.png)
           
 ## หัวข้อที่ 2 สร้าง orther os 
   ใช้เป็น ubantu mint ทำการ set ค่าต่างๆ 
@@ -47,14 +52,18 @@
       - และทำการตั้งค่าที่ option ให้เปิดใช้งานตัว Qemu guest agent
         ![image](https://user-images.githubusercontent.com/116482588/205888715-80d93122-f42f-4585-96df-e5aa9a1e1b4e.png)
       - ทำการรีบูทระบบ
-    ![image](https://user-images.githubusercontent.com/116482588/207835889-229a20da-4de6-453f-a018-4f6114fc2e00.png)
+    ![image](https://user-images.githubusercontent.com/116482588/208141316-d2a7d9e9-e26c-43a7-915b-e01b6142bbe3.png)
     
 ## หัวข้อที่ 3 ทำการสร้าง container 
   โดยจะใช้คีย์ SSH จาก Github จากการที่เรา Genarate จาก SSH Key github
   - set update time ด้วยคำสั่ง
     - sudo timedatectl set-timezone Asia/Bangkok
     - date
-  ![image](https://user-images.githubusercontent.com/116482588/207841314-a5650ba0-4dbc-468f-8ba2-c125df737abc.png)
+  summary 
+    ![image](https://user-images.githubusercontent.com/116482588/208141432-f3725531-bc17-418d-8b92-f59102b1b070.png)
+  console
+    ![image](https://user-images.githubusercontent.com/116482588/208141547-0fa77d12-c4ff-412c-98a2-750ece39c714.png)
+
 
 
 
