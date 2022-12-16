@@ -1,6 +1,6 @@
 # SPCN-011
 
-หัวข้อที่ 1 ทำการสร้าง master vm มา 1 ตัว แล้วทำการ set ค่าพื้นฐานต่างๆ
+## หัวข้อที่ 1 ทำการสร้าง master vm มา 1 ตัว แล้วทำการ set ค่าพื้นฐานต่างๆ
   - set update time ด้วยคำสั่ง
     - sudo timedatectl set-timezone Asia/Bangkok
     - date
@@ -34,7 +34,7 @@
    ![image](https://user-images.githubusercontent.com/116482588/207836396-d9b40cb7-2ede-43e5-9168-4e9121204487.png)
 
           
-หัวข้อที่ 2 สร้าง orther os 
+## หัวข้อที่ 2 สร้าง orther os 
   ใช้เป็น ubantu mint ทำการ set ค่าต่างๆ 
     - set update time ด้วยคำสั่ง
       - sudo timedatectl set-timezone Asia/Bangkok
@@ -49,7 +49,7 @@
       - ทำการรีบูทระบบ
     ![image](https://user-images.githubusercontent.com/116482588/207835889-229a20da-4de6-453f-a018-4f6114fc2e00.png)
     
-หัวข้อที่ 3 ทำการสร้าง container 
+## หัวข้อที่ 3 ทำการสร้าง container 
   โดยจะใช้คีย์ SSH จาก Github จากการที่เรา Genarate จาก SSH Key github
   - set update time ด้วยคำสั่ง
     - sudo timedatectl set-timezone Asia/Bangkok
