@@ -30,7 +30,7 @@
           เมื่อ reboot สำเร็จ จะได้รับการ genarate ตัวไอดีขึ้นใหม่ และได้รับ ip ใหม่เช่นกัน
           ทำขั้นตอนนี้ที่ vm clone 2 เช่นกัน
    
-   summary
+   summary<br>
     master : ![image](https://user-images.githubusercontent.com/116482588/208134714-f1057616-b8ca-479b-8e53-7e2e35c15897.png)
     clone 1 : ![image](https://user-images.githubusercontent.com/116482588/208135693-d3b86681-268e-4d6d-9826-2a1de48780ce.png)
     clone 2 : ![image](https://user-images.githubusercontent.com/116482588/208135949-acc2956d-ecde-4aff-bf36-7a04c9e17636.png)
