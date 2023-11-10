@@ -43,18 +43,18 @@
           
 ## หัวข้อที่ 2 สร้าง orther os 
   ใช้เป็น ubantu mint ทำการ set ค่าต่างๆ 
-    - set update time ด้วยคำสั่ง
-      - sudo timedatectl set-timezone Asia/Bangkok
-      - date
-    - set qemu-guest-agent เพื่อเปิดใช้งาน ip qemu ด้วยคำสั่ง
-      - sudo -i
-      - apt update
-      - apt install qemu-guest-agent
-      - systemctl enable qemu-guest-agent
-      - และทำการตั้งค่าที่ option ให้เปิดใช้งานตัว Qemu guest agent
-        ![image](https://user-images.githubusercontent.com/116482588/205888715-80d93122-f42f-4585-96df-e5aa9a1e1b4e.png)
-      - ทำการรีบูทระบบ
-    ![image](https://user-images.githubusercontent.com/116482588/208141316-d2a7d9e9-e26c-43a7-915b-e01b6142bbe3.png)
+  - set update time ด้วยคำสั่ง
+    - sudo timedatectl set-timezone Asia/Bangkok
+    - date
+  - set qemu-guest-agent เพื่อเปิดใช้งาน ip qemu ด้วยคำสั่ง
+    - sudo -i
+    - apt update
+    - apt install qemu-guest-agent
+    - systemctl enable qemu-guest-agent
+    - และทำการตั้งค่าที่ option ให้เปิดใช้งานตัว Qemu guest agent
+      ![image](https://user-images.githubusercontent.com/116482588/205888715-80d93122-f42f-4585-96df-e5aa9a1e1b4e.png)
+    - ทำการรีบูทระบบ
+  ![image](https://user-images.githubusercontent.com/116482588/208141316-d2a7d9e9-e26c-43a7-915b-e01b6142bbe3.png)
     
 ## หัวข้อที่ 3 ทำการสร้าง container 
   โดยจะใช้คีย์ SSH จาก Github จากการที่เรา Genarate จาก SSH Key github
